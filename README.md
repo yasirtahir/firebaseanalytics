@@ -22,10 +22,13 @@ To use Firebase in your Android app, you need to register your app with your Fir
 Add the Firebase Android configuration file to your app:
 
 1.	Click  **Download google-services.json**  to obtain your Firebase Android config file (`google-services.json`).
+    
 2.  Move your config file into the module (app-level) directory of your app.
 3. To enable Firebase products in your app, add the [google-services plugin](https://developers.google.com/android/guides/google-services-plugin) to your Gradle files.
 4. In your root-level (project-level) Gradle file (`build.gradle`), add rules to include the Google Services Gradle plugin. Check that you have Google's Maven repository, as well.
-
-
-
+```xml
+buildscript { repositories {  **// Check that you have the following line (if not, add it): google()  // Google's Maven repository**  } dependencies {  // ...  **// Add the following line: classpath 'com.google.gms:google-services:4.3.4'  // Google Services plugin**  }  
+}allprojects {  // ... repositories {  **// Check that you have the following line (if not, add it): google()  // Google's Maven repository**  // ...  }  
+}
+```
 
