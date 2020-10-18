@@ -128,6 +128,7 @@ sendEvent()
 Once you run the application, you will see the following:
 
 
+![This is how the app looks like when we run after completing all the steps](https://github.com/yasirtahir/firebaseanalytics/raw/main/images/GoogleAnalytics.jpg)
 
 
 ## Real Time Visualization 
