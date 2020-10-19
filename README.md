@@ -1,7 +1,7 @@
 ## Google Analytics Codelab
 This repo contains many files. Please go through this Readme and follow all the steps in order to implement Google Analytics in your Android Application. In order to save time, I have attached herewith the quick start project. 
 ## Getting Started
-Download the .zip file and open the project in the Android Studio. If you face any issues, please raise your concerns.
+Download the [.zip file](https://github.com/yasirtahir/firebaseanalytics/raw/main/FirebaseAnalytics_StarterCode.zip) and open the project in the Android Studio. If you face any issues, please raise your concerns.
 
 ## Before you begin (Optional)
 The following steps has been completed already for you but It's worth mentioning.
@@ -140,13 +140,13 @@ Now, I'll show you how to monitor real-time visualization on the Firebase Consol
 Use DebugView to validate your Analytics configuration for apps during development.
 To enable Analytics Debug mode on an emulated Android device, execute the following command line:
 
-`adb shell setprop debug.firebase.analytics.app <package_name>`
+	adb shell setprop debug.firebase.analytics.app <package_name>
 
 > In our case, write the package name com.yasir.firebaseanalytics
 
 This behavior persists until you explicitly disable Debug mode by executing the following command line:
 
-`adb shell setprop debug.firebase.analytics.app .none.`
+	adb shell setprop debug.firebase.analytics.app .none.
 
 ## Congratulations
 
@@ -156,6 +156,3 @@ Well done. You have successfully completed this codelab and learned how to:
 -   How to Visualize the Data.
 
 For more details, please refer to the  [Development Guide](https://firebase.google.com/docs/analytics/get-started?platform=android). If you encounter any problem during development, please refer to the  [Error Codes](https://firebase.google.com/docs/analytics/errors).
-
-
-
